@@ -17,6 +17,9 @@ select{
 }
 
 @media screen and (min-width: 320px) and (max-width: 577px) {
+    h1{
+        font-size: 20px;
+    }
     .table th{
         font-size: 8px;
     }
@@ -24,5 +27,4 @@ select{
     .table td{
         font-size: 7px;
     }
-  
 }
