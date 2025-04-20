@@ -1,0 +1,17 @@
+
+
+input{
+    margin-top: 20px;
+}
+
+select{
+    margin-top: 20px;
+}
+
+.table th{
+    font-size: 12px;
+}
+
+.table td{
+    font-size: 10px;
+}
