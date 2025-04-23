@@ -27,22 +27,22 @@
             <div class="col-sm-12 col-md-4 mt-1">
                 <form class="form border border-primary p-2 d-flex flex-column gap-2 bg-secondary text-white rounded-4" id="myForm">
                  <div class="name-section ">
-                    <input class="w-100 rounded-pill p-2" type="text" placeholder=" First Name " name="firstName" id="firstName" >
-                    <input class="w-100 rounded-pill p-2"  type="text" placeholder=" Last Name " name="laststName" id="laststName">
+                    <input class="w-100 rounded-pill p-2" type="text" placeholder=" First Name " name="firstName" id="firstName" required >
+                    <input class="w-100 rounded-pill p-2"  type="text" placeholder=" Last Name " name="laststName" id="laststName" required>
                  </div>
 
                  <div class="contact-section">
-                    <input class="w-100 rounded-pill p-2"  type="email" placeholder=" your email " name="email" id="email">
-                    <input class="w-100 rounded-pill p-2"  type="number" placeholder=" your number " name="number" id="number">
+                    <input class="w-100 rounded-pill p-2"  type="email" placeholder=" your email " name="email" id="email" required>
+                    <input class="w-100 rounded-pill p-2"  type="number" placeholder=" your number " name="number" id="number" required>
                  </div>
                  <div class="gender d-flex align-items-baseline gap-2">
                     <label for="male" class="  text-capitalize fw-bold">male</label>
-                    <input type="radio" value="male"  name="male" id="male">
+                    <input type="radio" value="male"  name="male" id="male" required>
                     <label for="feMale" class="text-capitalize fw-bold">Fe male</label>
-                    <input type="radio"  name="male" value="Fe-male" id="feMale">
+                    <input type="radio"  name="male" value="Fe-male" id="feMale" required>
                  </div>
-                 <input type="text" class="rounded-pill p-2" placeholder="enter address" name="address" id="address">
-                 <input type="date" class="rounded-pill p-2" name="dateOfBirth" id="dateOfBirth">
+                 <input type="text" class="rounded-pill p-2" placeholder="enter address" name="address" id="address" required>
+                 <input type="date" class="rounded-pill p-2" name="dateOfBirth" id="dateOfBirth" placeholder="date of birth" required>
                  <select name="city" id="" class="rounded-pill p-2" id="selectCity"> 
                     <option value="">select your city</option>
                     <option value="peshawar">peshawar</option>
@@ -53,7 +53,7 @@
                  <button type="submit" id="submit" class="w-50 border-0 p-1 rounded-pill fw-bold text-capitalize">submit</button>
                 </div>
 
-                <div class="col-sm-12 col-md-8 mt-1">
+                <div class="col-sm-12 col-md-8 mt-1" style="overflow: scroll;">
                     <table class="table table-bordered table-hover table-striped">
                          <thead>
                             <tr style="cursor: pointer;" class="p-0">
